@@ -2,7 +2,6 @@
 
 ssh -tt app@192.168.0.92 <<EOF
 	cd /home/app/hello-jenkins
-	git pull
 	npm install --production
 	nodejs app.js
 	exit
